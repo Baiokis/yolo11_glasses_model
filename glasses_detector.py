@@ -6,13 +6,13 @@ def main():
 
     HYPERPARAMETERS = {
         "epochs": 600,
-        "batch_size": 64,
+        "batch_size": 32,
         "imgsz": 768,
         "optimizer": "SGD",
         "device": "0",
         "workers": 8,
         "label_smoothing": 0.05,
-        "patience": 75
+        "patience": 50
     }
 
     results = model.train(
