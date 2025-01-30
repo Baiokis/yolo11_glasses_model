@@ -6,11 +6,11 @@ def main():
 
     HYPERPARAMETERS = {
         "epochs": 600,
-        "batch_size": 32,
+        "batch_size": 8,
         "imgsz": 768,
         "optimizer": "SGD",
         "device": "0",
-        "workers": 8,
+        "workers": 12,
         "label_smoothing": 0.05,
         "patience": 50
     }
