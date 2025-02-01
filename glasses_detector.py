@@ -5,14 +5,14 @@ def main():
     model = YOLO("yolo11n.yaml")
 
     HYPERPARAMETERS = {
-        "epochs": 600,
+        "epochs": 1000,
         "batch_size": 8,
         "imgsz": 768,
         "optimizer": "SGD",
         "device": "0",
         "workers": 12,
-        "label_smoothing": 0.05,
-        "patience": 50
+        "label_smoothing": 0.01,
+        "patience": 100
     }
 
     results = model.train(
