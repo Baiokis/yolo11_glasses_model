@@ -11,7 +11,7 @@ def main():
         "optimizer": "SGD",
         "device": "0",
         "workers": 12,
-        "label_smoothing": 0.01,
+        "label_smoothing": 0.5,
         "patience": 100
     }
 
